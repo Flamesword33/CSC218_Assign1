@@ -12,11 +12,33 @@ h2{
 	background-color: #6997a7;
 }
 
+a.dashboard:link{
+	text-decoration: none;
+	color: #72a8c7;
+}
+
+a.dashboard:visited{
+	text-decoration: none;
+	color: #72a8c7;
+}
+
+a.dashboard:hover{
+	text-decoration: none;
+	color: #72a8c7;
+}
+
+a.dashboard:active{
+	text-decoration: none;
+	color: #72a8c7;
+}
+
 .button{
 	width: 40%;
 	margin-left:0.5%;
 	margin-right: 4%;
-	margin-top: 0.5%;
+	margin-top: 0.25%;
+	font-size: 75%;
+	color: #72a8c7;
 }
 
 .td{
@@ -24,6 +46,11 @@ h2{
 	padding: 0.6% 8% 5% 0.4%;
 	background-repeat: no-repeat;
 	text-align: center;
+}
+
+#dashboard{
+	background-color: #e7f3f8;
+	margin-bottom: 1.25%;
 }
 
 
