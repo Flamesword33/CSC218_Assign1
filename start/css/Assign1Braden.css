@@ -6,3 +6,41 @@ html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h
    vertical-align: baseline;
    border: 0;
 }
+#table_template table{
+   width:99%;
+   margin-top: 5px;
+   margin-bottom: 1px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+#table_template table{
+   border-collapse: collapse;
+   
+}
+#table_template th{
+   border-top: 0px solid;
+   border-right: 1px solid;
+   border-bottom:1px solid;
+   border-color: #d6e7ee;
+}
+#table_template td{
+   border: 1px solid;
+   border-color: #d6e7ee;
+   padding: 5px;
+   padding-left:15px;
+}
+#top_row{
+   border-top: 0px solid;
+}
+.Pending{
+   color:red;
+}
+#third_row{
+background-image: url("../images/td_bg2.gif");
+}
+#second_row, #fourth_row{
+   background-image: url("../images/td_bg1.gif");
+}
+.navyBlue{
+   color:navy;
+}

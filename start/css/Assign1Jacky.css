@@ -1,3 +1,12 @@
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(Roboto-Regular.ttf);
+}
+
+body{
+	font-family: Roboto-Regular;
+}	
+
 li{
 	display: inline-block;
 }
@@ -10,6 +19,12 @@ h2{
 	padding: 0.5% 0% 0.5% 0.25%;
 	font-weight: normal;
 	background-color: #6997a7;
+}
+
+#spacing{
+	width: 100%;
+	padding: 0.75%;
+	background-image: url(../images/content_top.gif);
 }
 
 a.dashboard:link{
@@ -48,9 +63,10 @@ a.dashboard:active{
 	text-align: center;
 }
 
-#dashboard{
+.background{
 	background-color: #e7f3f8;
 	margin-bottom: 1.25%;
+	padding-bottom: 1%
 }
 
 

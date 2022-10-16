@@ -3,11 +3,11 @@
 <head>
    <meta charset="utf-8">
    <title>Web1 - Assign 1</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">       
    <link rel="stylesheet" href="css/reset.css"/>
    <link rel="stylesheet" href="css/Assign1Braden.css"/>  
    <link rel="stylesheet" href="css/Assign1Nathan.css"/> 
    <link rel="stylesheet" href="css/Assign1Jacky.css"/> 
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">  
 </head>
 <body>
    <header>   
@@ -22,32 +22,34 @@
          </ul>   
       </nav>
    </header>
+   <div id="spacing">
+   </div>
 
    <main>
-      <section id="dashboard">
+      <section class="background">
          <h2>Dashboard</h2>
          <table class="button" >
             <tr class="images">
 			    <td class="td"> 
-					<a href="#">
+					<a class="dashboard" href="#">
 					<img src="images/d1.gif" alt="two people">
 					<p>Users</p>
 					</a>
 				</td>
 			    <td class="td"> 
-					<a href="#">
+					<a class="dashboard"  href="#">
 					<img src="images/d2.gif" alt="folder">
 					<p>Upload folders</p>
 					</a>
 				</td>
 			    <td class="td"> 
-					<a href="#">
+					<a class="dashboard"  href="#">
 					<img src="images/d3.gif" alt="camera">
 					<p>Photo galleries</p>
 					</a>
 				</td>
 			    <td class="td"> 
-					<a href="#">
+					<a class="dashboard"  href="#">
 					<img src="images/d4.gif" alt="computer">
 					 <p>Configuration</p>
 					</a>
@@ -56,19 +58,19 @@
          </table>
       </section>
 
-      <section id="table_template">
+      <section class="background" id="table_template">
          <h2>Table Template</h2>
          <table>
-            <tr>
+            <tr id="top_row">
                <th>No.</th>
-               <th>Status</th>
-               <th>ID# <img src="images/asc.gif"></th>
-               <th>Full name <img src="images/desc.gif"></th>
-               <th>Date</th>
-               <th>Price</th>
+               <th class="navyBlue">Status</th>
+               <th class="navyBlue">ID# <img src="images/asc.gif"></th>
+               <th class="navyBlue">Full name <img src="images/desc.gif"></th>
+               <th class="navyBlue">Date</th>
+               <th class="navyBlue">Price</th>
                <th>Actions</th>
             </tr>
-            <tr>
+            <tr id="second_row">
                <td>1.</td>
                <td>Approved</td>
                <td>FB_H061</td>
@@ -82,7 +84,7 @@
                   <img src="images/action4.gif">
                </td>
             </tr>
-            <tr>
+            <tr id="third_row">
                <td>2.</td>
                <td class="Pending">Pending <img src="images/pending.gif"></td>
                <td>FB_H061</td>
@@ -96,7 +98,7 @@
                   <img src="images/action4.gif">
                </td>
             </tr>
-            <tr>
+            <tr id="fourth_row">
                <td>3.</td>
                <td>Approved</td>
                <td>FB_H061</td>
@@ -113,7 +115,7 @@
          </table>
       </section>
 
-      <section id="forms_template">
+      <section class="background" id="forms_template">
          <h2>Forms Template</h2>
          <form>
             <p>
