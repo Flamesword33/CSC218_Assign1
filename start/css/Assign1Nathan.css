@@ -38,12 +38,14 @@ section#forms_template form p{
    margin-left: 1.8em;
    height: 1em;
    border-radius: 0px;
+   border: 1px solid rgba(133, 133, 133, 0.5);
 }
 
 #return_error{
    margin-left: 1.6em;
    height: 1em;
    border-radius: 0px;
+   border: 1px solid rgba(133, 133, 133, 0.5);
 }
 
 /* images and words after input boxes*/
@@ -81,6 +83,7 @@ section#forms_template button{
    padding-left: 0.5em;
    padding-right: 0.5em;
    background-color: rgb(245, 243, 243);
+   border: 1px solid rgba(133, 133, 133, 0.5);
 }
 
 /* resizeable comment box */
