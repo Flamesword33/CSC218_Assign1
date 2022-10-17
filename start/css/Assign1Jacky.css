@@ -49,18 +49,20 @@ a.dashboard:active{
 
 .button{
 	width: 40%;
-	margin-left:0.5%;
+	margin-left: -1.5%;
 	margin-right: 4%;
 	margin-top: 0.25%;
 	font-size: 75%;
 	color: #72a8c7;
+	position: relative;
+	border-spacing: 30px 0px;
 }
 
 .td{
 	background-image: url(../images/dashboard_li.gif);
 	padding: 0.6% 8% 5% 0.4%;
 	background-repeat: no-repeat;
-	text-align: center;
+	width: 20%;
 }
 
 .background{
@@ -69,4 +71,7 @@ a.dashboard:active{
 	padding-bottom: 1%
 }
 
+#tr{
+	width: 100%;
+}
 
