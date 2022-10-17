@@ -39,8 +39,18 @@ section#forms_template form p{
 section#forms_template form img{
    margin-left: 0.5em;
 }
+
+.green{
+   color: #719914;
+}
+
+.red{
+   color: #b12241;
+}
+
 section#forms_template select{
    margin-left: 5em;
+   background-color: white;
    width: 12em;
    font-size: 12px;
 }
@@ -56,17 +66,32 @@ section#forms_template button{
 
 }
 #white_msg{
+   background-color: white;
+   border-radius: 4px;
    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 #red_msg{
+   background-color: #DFBEBF;
+   border-radius: 4px;
+   color: #b12241;
    margin: 0em 0.5em 0.5em 0.5em;
 }
+
 #blue_msg{
+   background-color: #BCD9DF;
+   border-radius: 4px;
+   color: #085868;
    margin: 0em 0.5em 0.5em 0.5em;
 }
 #green_msg{
+   background-color: #C0DEBA;
+   border-radius: 4px;
+   color: #135806;
    margin: 0em 0.5em 0.5em 0.5em;
 }
 #yellow_msg{
+   background-color: #E9DEA7;
+   border-radius: 4px;
+   color: #635201;
    margin: 0em 0.5em 0.5em 0.5em;
 }
