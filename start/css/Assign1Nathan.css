@@ -33,6 +33,7 @@ header h1{
 }
 
 #main_menu a{
+   text-decoration: none;
    padding: 1px 5px 1px 5px;
 }
 
