@@ -9,7 +9,23 @@ body{
 }
 
 /* Header */
+header{
+   background-color: #44555F;
+   border-bottom: 1px solid rgb(7, 138, 138);
+}
 
+
+#main_menu a{
+}
+
+#main_menu a:link{
+}
+
+#main_menu a:visited{
+}
+
+#main_menu a:hover{
+}
 
 
 /*Colors on picture:
