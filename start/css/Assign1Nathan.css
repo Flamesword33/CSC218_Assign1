@@ -38,12 +38,15 @@ header h1{
 }
 
 #main_menu a:link{
+   color: white;
 }
 
 #main_menu a:visited{
+   color: white;
 }
 
 #main_menu a:hover{
+   color: black;
 }
 
 
