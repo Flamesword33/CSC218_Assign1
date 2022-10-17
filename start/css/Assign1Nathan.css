@@ -39,10 +39,12 @@ header h1{
 
 #main_menu a:link{
    color: white;
+   background-image: url("../images/mm_lk_green1.gif");  
 }
 
 #main_menu a:visited{
    color: white;
+   background-image: url("../images/mm_lk_green2.gif");
 }
 
 #main_menu a:hover{
