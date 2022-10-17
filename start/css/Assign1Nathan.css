@@ -19,6 +19,11 @@ section#forms_template form {
    font-size: 12px;
 
 }
+
+section#forms_template form p{
+   margin-bottom: 1em;
+}
+
 section#forms_template form img{
    margin-left: 0.5em;
 }
@@ -27,10 +32,16 @@ section#forms_template select{
 }
 section#forms_template button{
    font-size: 12px;
+.resize_box{
+   margin-bottom: 2em;
+
 }
 #msg{
    font-size: 12px;
 
+}
+#white_msg{
+   margin: 0.5em 0.5em 0.5em 0.5em;
 }
 #red_msg{
    margin: 0em 0.5em 0.5em 0.5em;
