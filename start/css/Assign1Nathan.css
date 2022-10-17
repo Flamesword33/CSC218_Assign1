@@ -47,6 +47,7 @@ header h1{
 
 #main_menu a:hover{
    color: black;
+   background-image: url("../images/mm_lk_middle.gif");
 }
 
 
