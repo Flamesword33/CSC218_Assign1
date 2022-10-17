@@ -58,8 +58,20 @@ section#forms_template select{
    width: 12em;
    font-size: 12px;
 }
+
+section#forms_template button#button_b{
+   margin-left: 2.5em;
+
+}
+
 section#forms_template button{
    font-size: 12px;
+   border-radius: 2px;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   background-color: rgb(245, 243, 243);
+}
+
 .resize_box{
    margin-left: 7em;
    margin-bottom: 2em;
