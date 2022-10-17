@@ -92,6 +92,11 @@ section#forms_template button{
    font-size: 12px;
 
 }
+
+#msg img{
+   width:20px;
+}
+
 #white_msg{
    background-color: white;
    border-radius: 4px;
