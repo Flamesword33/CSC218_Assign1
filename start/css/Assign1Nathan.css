@@ -4,6 +4,9 @@
    finished October 17, 2022
 */
 
+/* Header */
+
+
 
 /*Colors on picture:
    green: B1CB74
@@ -70,6 +73,7 @@ section#forms_template select{
    background-color: white;
    width: 12em;
    font-size: 12px;
+   border: 1px solid rgba(133, 133, 133, 0.5);
 }
 
 /* buttons */
@@ -94,13 +98,12 @@ section#forms_template button{
    width: 400px;
    resize:both;
    overflow:hidden;
-
 }
 
 #Comments{
    width:100%;
    height:100%;
-   text-align: top;
+   border: 1px solid rgba(133, 133, 133, 0.5);
 }
 
 /* Posted Messages */
