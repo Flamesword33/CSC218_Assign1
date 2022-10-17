@@ -48,6 +48,10 @@ section#forms_template form img{
    color: #b12241;
 }
 
+section#forms_template form span{
+   margin-left: 2px;
+}
+
 section#forms_template select{
    margin-left: 5em;
    background-color: white;
