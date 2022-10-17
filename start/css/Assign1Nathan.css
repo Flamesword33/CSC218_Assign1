@@ -102,6 +102,12 @@ section#forms_template button{
    border-radius: 4px;
    margin: 0.5em 0.5em 0.5em 0.5em;
 }
+
+#msg span{
+   vertical-align:super;
+
+}
+
 #red_msg{
    background-color: #DFBEBF;
    border-radius: 4px;
