@@ -21,8 +21,19 @@ header h1{
    border-bottom: 1px solid white;
 }
 
+#main_menu{
+   padding-left: 10px; 
+   padding-top: 4px;
+}
+
+#main_menu ul li {
+   list-style: none;
+   display: inline;
+   font-size: 15px;
+}
 
 #main_menu a{
+   padding: 1px 5px 1px 5px;
 }
 
 #main_menu a:link{
