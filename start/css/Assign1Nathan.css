@@ -14,6 +14,13 @@ header{
    border-bottom: 1px solid rgb(7, 138, 138);
 }
 
+header h1{
+   color: white;
+   font-size: 45px;
+   padding: 10px 0px 20px 10px;
+   border-bottom: 1px solid white;
+}
+
 
 #main_menu a{
 }
