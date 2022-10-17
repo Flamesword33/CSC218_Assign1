@@ -1,3 +1,10 @@
+/* Assign1Nathan.css
+   by Nathan Pelletier
+   started October 15, 2022
+   finished October 17, 2022
+*/
+
+
 /*Colors on picture:
    green: B1CB74
    red:   D3667E
@@ -7,6 +14,8 @@
    yellow:E9DEA7
    grey:  EDECEA
    */
+
+/* section 3 forms_template*/
 
 section#forms_template{
    border-bottom: 1em solid #edecea8e;
@@ -24,6 +33,7 @@ section#forms_template form p{
    margin-bottom: 1em;
 }
 
+/* input boxes*/
 #valid_check{
    margin-left: 1.8em;
    height: 1em;
@@ -36,6 +46,7 @@ section#forms_template form p{
    border-radius: 0px;
 }
 
+/* images and words after input boxes*/
 section#forms_template form img{
    margin-left: 0.5em;
 }
@@ -59,9 +70,9 @@ section#forms_template select{
    font-size: 12px;
 }
 
+/* buttons */
 section#forms_template button#button_b{
    margin-left: 2.5em;
-
 }
 
 section#forms_template button{
@@ -72,6 +83,7 @@ section#forms_template button{
    background-color: rgb(245, 243, 243);
 }
 
+/* resizeable comment box */
 .resize_box{
    margin-left: 7em;
    margin-bottom: 2em;
@@ -88,6 +100,7 @@ section#forms_template button{
    text-align: top;
 }
 
+/* Posted Messages */
 #msg{
    font-size: 12px;
 
@@ -121,12 +134,14 @@ section#forms_template button{
    color: #085868;
    margin: 0em 0.5em 0.5em 0.5em;
 }
+
 #green_msg{
    background-color: #C0DEBA;
    border-radius: 4px;
    color: #135806;
    margin: 0em 0.5em 0.5em 0.5em;
 }
+
 #yellow_msg{
    background-color: #E9DEA7;
    border-radius: 4px;
