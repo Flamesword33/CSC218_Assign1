@@ -4,6 +4,10 @@
    finished October 17, 2022
 */
 
+body{
+   min-width: 40em;
+}
+
 /* Header */
 
 
