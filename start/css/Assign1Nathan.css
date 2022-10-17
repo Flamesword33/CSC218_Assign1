@@ -24,15 +24,30 @@ section#forms_template form p{
    margin-bottom: 1em;
 }
 
+#valid_check{
+   margin-left: 1.8em;
+   height: 1em;
+   border-radius: 0px;
+}
+
+#return_error{
+   margin-left: 1.6em;
+   height: 1em;
+   border-radius: 0px;
+}
+
 section#forms_template form img{
    margin-left: 0.5em;
 }
 section#forms_template select{
+   margin-left: 5em;
+   width: 12em;
    font-size: 12px;
 }
 section#forms_template button{
    font-size: 12px;
 .resize_box{
+   margin-left: 7em;
    margin-bottom: 2em;
 
 }
