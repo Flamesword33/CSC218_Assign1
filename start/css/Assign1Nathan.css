@@ -11,3 +11,36 @@
 section#forms_template{
    border-bottom: 1em solid #edecea8e;
 }
+
+/* form */
+section#forms_template form {
+   margin-top: 0.5em;
+   margin-left: 0.5em;
+   font-size: 12px;
+
+}
+section#forms_template form img{
+   margin-left: 0.5em;
+}
+section#forms_template select{
+   font-size: 12px;
+}
+section#forms_template button{
+   font-size: 12px;
+}
+#msg{
+   font-size: 12px;
+
+}
+#red_msg{
+   margin: 0em 0.5em 0.5em 0.5em;
+}
+#blue_msg{
+   margin: 0em 0.5em 0.5em 0.5em;
+}
+#green_msg{
+   margin: 0em 0.5em 0.5em 0.5em;
+}
+#yellow_msg{
+   margin: 0em 0.5em 0.5em 0.5em;
+}
