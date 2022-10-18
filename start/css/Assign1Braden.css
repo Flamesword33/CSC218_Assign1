@@ -48,10 +48,17 @@ footer{
    background-color: #3e4d57;
    color: gray;
    text-decoration: none;
+   font-size:80%;
+   padding-top:5px;
 
 }
 #sub_menu{
    padding-bottom: 2%;
    font-size: 70%;
+}
+footer a{
+   text-decoration: none;
+   padding: 1px 5px 1px 5px;
+   color:gray;
 }
 
