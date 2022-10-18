@@ -44,3 +44,14 @@ background-image: url("../images/td_bg2.gif");
 .navyBlue{
    color:navy;
 }
+footer{
+   background-color: #3e4d57;
+   color: gray;
+   text-decoration: none;
+
+}
+#sub_menu{
+   padding-bottom: 2%;
+   font-size: 70%;
+}
+
